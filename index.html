@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Appizy">
+    <title>
+      ESK8 CALC
+    </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <tr>
+      <td>
+				<img src="esk8-calc-logo2.jpg" alt="ESK8 CALC">
+        <p class="instr"><em><strong>INTRUCTIONS: </strong>Select and/or fill out the fields in gold, calculations appear in grey fields.</em></p>
+      </td>
+    </tr>
+    <div class="appizy">
+      <div class="application-layout-fit-parent application-align-left">
+        <form class="application" action="@mmaner" method="post">
+          <div class="tabs">
+            <div id="sheet1" class="tab-content active">
+              <table>
+                <colgroup>
+                  <col span="1" class="co1">
+                  <col span="1" class="co2">
+                  <col span="1" class="co2">
+                  <col span="1" class="co3">
+                  <col span="1" class="co1">
+                  <col span="1" class="co2">
+                  <col span="1" class="co2">
+                </colgroup>
+                <tbody>
+                  <tr class="s0r0 ro1">
+                    <td class="s0r0c0 text ce1">
+                      <p>
+                        Cell Type (25R, 30Q, Lipo)
+                      </p>
+                    </td>
+                    <td class="s0r0c1 in in--text ce3">
+                      <select id="s0r0c1">
+                        <option value="">
+                        </option>
+                        <option selected value="30Q">
+                          30Q
+                        </option>
+                        <option value="40T">
+                          40T
+                        </option>
+                        <option value="50E">
+                          50E
+                        </option>
+                        <option value="P42A">
+                          P42A
+                        </option>
+                        <option value="NCRB">
+                          NCRB
+                        </option>
+                        <option value="25R">
+                          25R
+                        </option>
+                        <option value="Lipo 5000mah">
+                          Lipo 5000mah
+                        </option>
+                        <option value="Lipo 8000mah">
+                          Lipo 8000mah
+                        </option>
+                      </select>
+                    </td>
+                    <td class="s0r0c2 text ce8"></td>
+                    <td class="s0r0c3 text ce12"></td>
+                    <td class="s0r0c4 text ce1">
+                      <p>
+                        Cell Capacity (mAh)
+                      </p>
+                    </td>
+                    <td class="s0r0c5 out ce15">
+                      <div id="s0r0c5"></div>
+                    </td>
+                    <td class="s0r0c6 text ce10">
+                      <p>
+                        mAh
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r1 ro1">
+                    <td class="s0r1c0 text ce1">
+                      <p>
+                        S Count (Cells in Series)
+                      </p>
+                    </td>
+                    <td class="s0r1c1 in ce4">
+                      <input id="s0r1c1">
+                    </td>
+                    <td class="s0r1c2 text ce8">
+                      <p>
+                        S
+                      </p>
+                    </td>
+                    <td class="s0r1c3 text ce12"></td>
+                    <td class="s0r1c4 text ce1">
+                      <p>
+                        Cell Nom Volts (V)
+                      </p>
+                    </td>
+                    <td class="s0r1c5 out ce15">
+                      <div id="s0r1c5"></div>
+                    </td>
+                    <td class="s0r1c6 text ce10">
+                      <p>
+                        V
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r2 ro1">
+                    <td class="s0r2c0 text ce1">
+                      <p>
+                        P Count (Series in Parallel)
+                      </p>
+                    </td>
+                    <td class="s0r2c1 in ce4">
+                      <input id="s0r2c1">
+                    </td>
+                    <td class="s0r2c2 text ce8">
+                      <p>
+                        P
+                      </p>
+                    </td>
+                    <td class="s0r2c3 text ce12"></td>
+                    <td class="s0r2c4 text ce1">
+                      <p>
+                        Cell Max Volts (V)
+                      </p>
+                    </td>
+                    <td class="s0r2c5 out ce15">
+                      <div id="s0r2c5"></div>
+                    </td>
+                    <td class="s0r2c6 text ce10">
+                      <p>
+                        V
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r3 ro1">
+                    <td class="s0r3c0 text ce1">
+                      <p>
+                        Motor KV
+                      </p>
+                    </td>
+                    <td class="s0r3c1 in ce4">
+                      <input id="s0r3c1">
+                    </td>
+                    <td class="s0r3c2 text ce8">
+                      <p>
+                        KV
+                      </p>
+                    </td>
+                    <td class="s0r3c3 text ce12"></td>
+                    <td class="s0r3c4 text ce1">
+                      <p>
+                        Cell Cont Discharge
+                      </p>
+                    </td>
+                    <td class="s0r3c5 out ce15">
+                      <div id="s0r3c5"></div>
+                    </td>
+                    <td class="s0r3c6 text ce10">
+                      <p>
+                        A
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r4 ro1">
+                    <td class="s0r4c0 text ce1">
+                      <p>
+                        Motor Poles (14)
+                      </p>
+                    </td>
+                    <td class="s0r4c1 text ce4">
+                      <p>
+                        14
+                      </p>
+                    </td>
+                    <td class="s0r4c2 text ce8">
+                      <p>
+                        poles
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r5 ro1">
+                    <td class="s0r5c0 text ce1">
+                      <p>
+                        Motor Pulley Teeth (T)
+                      </p>
+                    </td>
+                    <td class="s0r5c1 in ce4">
+                      <input id="s0r5c1">
+                    </td>
+                    <td class="s0r5c2 text ce8">
+                      <p>
+                        T
+                      </p>
+                    </td>
+                    <td class="s0r5c3 text ce12"></td>
+                    <td class="s0r5c4 text ce14">
+                      <p>
+                        Battery Capacity (mAh)
+                      </p>
+                    </td>
+                    <td class="s0r5c5 out ce15">
+                      <div id="s0r5c5"></div>
+                    </td>
+                    <td class="s0r5c6 text ce10">
+                      <p>
+                        mAh
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r6 ro1">
+                    <td class="s0r6c0 text ce1">
+                      <p>
+                        Wheel Pulley Teeth (T)
+                      </p>
+                    </td>
+                    <td class="s0r6c1 in ce4">
+                      <input id="s0r6c1">
+                    </td>
+                    <td class="s0r6c2 text ce8">
+                      <p>
+                        T
+                      </p>
+                    </td>
+                    <td class="s0r6c3 text ce12"></td>
+                    <td class="s0r6c4 text ce14">
+                      <p>
+                        Battery Max Voltage (V)
+                      </p>
+                    </td>
+                    <td class="s0r6c5 out ce15">
+                      <div id="s0r6c5"></div>
+                    </td>
+                    <td class="s0r6c6 text ce10">
+                      <p>
+                        V
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r7 ro1">
+                    <td class="s0r7c0 text ce1">
+                      <p>
+                        Wheel size (mm)
+                      </p>
+                    </td>
+                    <td class="s0r7c1 in ce4">
+                      <input id="s0r7c1">
+                    </td>
+                    <td class="s0r7c2 text ce8">
+                      <p>
+                        mm
+                      </p>
+                    </td>
+                    <td class="s0r7c3 text ce12"></td>
+                    <td class="s0r7c4 text ce14">
+                      <p>
+                        Battery Nominal Voltage (V)
+                      </p>
+                    </td>
+                    <td class="s0r7c5 out ce15">
+                      <div id="s0r7c5"></div>
+                    </td>
+                    <td class="s0r7c6 text ce10">
+                      <p>
+                        V
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r8 ro1">
+                    <td class="s0r8c0 text ce1">
+                      <p>
+                        Efficiency (typically 85-90%)
+                      </p>
+                    </td>
+                    <td class="s0r8c1 in ce4">
+                      <input id="s0r8c1">
+                    </td>
+                    <td class="s0r8c2 text ce8">
+                      <p>
+                        %
+                      </p>
+                    </td>
+                    <td class="s0r8c3 text ce12"></td>
+                    <td class="s0r8c4 text ce14">
+                      <p>
+                        Battery Cont Discharge (A)
+                      </p>
+                    </td>
+                    <td class="s0r8c5 out ce15">
+                      <div id="s0r8c5"></div>
+                    </td>
+                    <td class="s0r8c6 text ce10">
+                      <p>
+                        A
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r9 ro1">
+                    <td></td>
+                  </tr>
+                  <tr class="s0r10 ro1">
+                    <td class="s0r10c0 text ce1">
+                      <p>
+                        Watt Hours (Max)
+                      </p>
+                    </td>
+                    <td class="s0r10c1 out ce6">
+                      <div id="s0r10c1"></div>
+                    </td>
+                    <td class="s0r10c2 text ce10">
+                      <p>
+                        WH
+                      </p>
+                    </td>
+                    <td class="s0r10c3 text ce12"></td>
+                    <td class="s0r10c4 text ce14">
+                      <p>
+                        Range, Max (Miles)
+                      </p>
+                    </td>
+                    <td class="s0r10c5 out ce15">
+                      <div id="s0r10c5"></div>
+                    </td>
+                    <td class="s0r10c6 text ce10">
+                      <p>
+                        M
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r11 ro1">
+                    <td class="s0r11c0 text ce1">
+                      <p>
+                        Watt Hours (Nominal)
+                      </p>
+                    </td>
+                    <td class="s0r11c1 out ce6">
+                      <div id="s0r11c1"></div>
+                    </td>
+                    <td class="s0r11c2 text ce10">
+                      <p>
+                        WH
+                      </p>
+                    </td>
+                    <td class="s0r11c3 text ce12"></td>
+                    <td class="s0r11c4 text ce14">
+                      <p>
+                        Range, Max (KM)
+                      </p>
+                    </td>
+                    <td class="s0r11c5 out ce15">
+                      <div id="s0r11c5"></div>
+                    </td>
+                    <td class="s0r11c6 text ce10">
+                      <p>
+                        KM
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r12 ro1">
+                    <td class="s0r12c0 text ce1"></td>
+                    <td class="s0r12c1 text ce5"></td>
+                    <td class="s0r12c2 text ce9"></td>
+                    <td class="s0r12c3 text ce12"></td>
+                    <td class="s0r12c4 text ce14">
+                      <p>
+                        Range, Efficiency (Miles)
+                      </p>
+                    </td>
+                    <td class="s0r12c5 out ce15">
+                      <div id="s0r12c5"></div>
+                    </td>
+                    <td class="s0r12c6 text ce10">
+                      <p>
+                        M
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r13 ro1">
+                    <td class="s0r13c0 text ce1">
+                      <p>
+                        ERPM (Electrical RPM)
+                      </p>
+                    </td>
+                    <td class="s0r13c1 out ce6">
+                      <div id="s0r13c1"></div>
+                    </td>
+                    <td class="s0r13c2 text ce10">
+                      <p>
+                        ERPM
+                      </p>
+                    </td>
+                    <td class="s0r13c3 text ce12"></td>
+                    <td class="s0r13c4 text ce14">
+                      <p>
+                        Range, Efficiency (KM)
+                      </p>
+                    </td>
+                    <td class="s0r13c5 out ce15">
+                      <div id="s0r13c5"></div>
+                    </td>
+                    <td class="s0r13c6 text ce10">
+                      <p>
+                        KM
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r14 ro1">
+                    <td class="s0r14c0 text ce1">
+                      <p>
+                        RPM (@ shaft)
+                      </p>
+                    </td>
+                    <td class="s0r14c1 out ce6">
+                      <div id="s0r14c1"></div>
+                    </td>
+                    <td class="s0r14c2 text ce10">
+                      <p>
+                        RPM
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r15 ro1">
+                    <td class="s0r15c0 text ce1"></td>
+                    <td class="s0r15c1 text ce5"></td>
+                    <td class="s0r15c2 text ce9"></td>
+                    <td class="s0r15c3 text ce12"></td>
+                    <td class="s0r15c4 text ce14">
+                      <p>
+                        Gear Ratio
+                      </p>
+                    </td>
+                    <td class="s0r15c5 out ce15">
+                      <div id="s0r15c5"></div>
+                    </td>
+                    <td class="s0r15c6 text ce10">
+                      <p>
+                        :1
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r16 ro1">
+                    <td class="s0r16c0 text ce1">
+                      <p>
+                        Max Usable KV
+                      </p>
+                    </td>
+                    <td class="s0r16c1 out ce6">
+                      <div id="s0r16c1"></div>
+                    </td>
+                    <td class="s0r16c2 text ce10">
+                      <p>
+                        KV
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r17 ro1">
+                    <td class="s0r17c0 text ce1">
+                      <p>
+                        Max Usable Voltage (V)
+                      </p>
+                    </td>
+                    <td class="s0r17c1 out ce6">
+                      <div id="s0r17c1"></div>
+                    </td>
+                    <td class="s0r17c2 text ce10">
+                      <p>
+                        V
+                      </p>
+                    </td>
+                    <td class="s0r17c3 text ce12"></td>
+                    <td class="s0r17c4 text ce14">
+                      <p>
+                        Top Speed, Max (MPH)
+                      </p>
+                    </td>
+                    <td class="s0r17c5 out ce15">
+                      <div id="s0r17c5"></div>
+                    </td>
+                    <td class="s0r17c6 text ce10">
+                      <p>
+                        MPH
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r18 ro2">
+                    <td class="s0r18c0 text ce1"></td>
+                    <td class="s0r18c1 text ce5"></td>
+                    <td class="s0r18c2 text ce9"></td>
+                    <td class="s0r18c3 text ce12"></td>
+                    <td class="s0r18c4 text ce14">
+                      <p>
+                        Top Speed, Max (KMPH)
+                      </p>
+                    </td>
+                    <td class="s0r18c5 out ce15">
+                      <div id="s0r18c5"></div>
+                    </td>
+                    <td class="s0r18c6 text ce10">
+                      <p>
+                        KM
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r19 ro2">
+                    <td class="s0r19c0 text ce1">
+                      <p>
+                        Max Wattage
+                      </p>
+                    </td>
+                    <td class="s0r19c1 out ce6">
+                      <div id="s0r19c1"></div>
+                    </td>
+                    <td class="s0r19c2 text ce10">
+                      <p>
+                        W
+                      </p>
+                    </td>
+                    <td class="s0r19c3 text ce12"></td>
+                    <td class="s0r19c4 text ce14">
+                      <p>
+                        Top Speed, Efficiency (MPH)
+                      </p>
+                    </td>
+                    <td class="s0r19c5 out ce15">
+                      <div id="s0r19c5"></div>
+                    </td>
+                    <td class="s0r19c6 text ce10">
+                      <p>
+                        MPH
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s0r20 ro2">
+                    <td class="s0r20c0 text ce1">
+                      <p>
+                        Max Charge Rate
+                      </p>
+                    </td>
+                    <td class="s0r20c1 out ce6">
+                      <div id="s0r20c1"></div>
+                    </td>
+                    <td class="s0r20c2 text ce10">
+                      <p>
+                        A
+                      </p>
+                    </td>
+                    <td class="s0r20c3 text ce12"></td>
+                    <td class="s0r20c4 text ce14">
+                      <p>
+                        Top Speed, Efficiency (KMPH)
+                      </p>
+                    </td>
+                    <td class="s0r20c5 out ce15">
+                      <div id="s0r20c5"></div>
+                    </td>
+                    <td class="s0r20c6 text ce10">
+                      <p>
+                        KM
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="sheet2" class="tab-content">
+              <table>
+                <colgroup>
+                  <col span="1" class="co4">
+                  <col span="1" class="co4">
+                  <col span="1" class="co4">
+                  <col span="1" class="co4">
+                  <col span="1" class="co4">
+                  <col span="1" class="co4">
+                </colgroup>
+                <tbody>
+                  <tr class="s1r0 ro4">
+                    <td class="s1r0c0 text ce23">
+                      <p>
+                        Cell Type
+                      </p>
+                    </td>
+                    <td class="s1r0c1 text ce23">
+                      <p>
+                        Nom Capacity
+                      </p>
+                    </td>
+                    <td class="s1r0c2 text ce23">
+                      <p>
+                        Cont Discharge
+                      </p>
+                    </td>
+                    <td class="s1r0c3 text ce23">
+                      <p>
+                        Nom Voltage
+                      </p>
+                    </td>
+                    <td class="s1r0c4 text ce23">
+                      <p>
+                        Max Voltage
+                      </p>
+                    </td>
+                    <td class="s1r0c5 text ce23">
+                      <p>
+                        Cell Info
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s1r1 ro4">
+                    <td class="s1r1c0 in in--text ce24">
+                      <input id="s1r1c0">
+                    </td>
+                    <td class="s1r1c1 in ce24">
+                      <input id="s1r1c1">
+                    </td>
+                    <td class="s1r1c2 in ce24">
+                      <input id="s1r1c2">
+                    </td>
+                    <td class="s1r1c3 in ce24">
+                      <input id="s1r1c3">
+                    </td>
+                    <td class="s1r1c4 in ce24">
+                      <input id="s1r1c4">
+                    </td>
+                    <td class="s1r1c5 text ce24">
+                      <p>
+                        Samsung 18650 30Q
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s1r2 ro4">
+                    <td class="s1r2c0 in in--text ce24">
+                      <input id="s1r2c0">
+                    </td>
+                    <td class="s1r2c1 in ce24">
+                      <input id="s1r2c1">
+                    </td>
+                    <td class="s1r2c2 in ce24">
+                      <input id="s1r2c2">
+                    </td>
+                    <td class="s1r2c3 in ce24">
+                      <input id="s1r2c3">
+                    </td>
+                    <td class="s1r2c4 in ce24">
+                      <input id="s1r2c4">
+                    </td>
+                    <td class="s1r2c5 text ce24">
+                      <p>
+                        Samsung 40T 21700
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s1r3 ro4">
+                    <td class="s1r3c0 in in--text ce24">
+                      <input id="s1r3c0">
+                    </td>
+                    <td class="s1r3c1 in ce24">
+                      <input id="s1r3c1">
+                    </td>
+                    <td class="s1r3c2 in ce24">
+                      <input id="s1r3c2">
+                    </td>
+                    <td class="s1r3c3 in ce24">
+                      <input id="s1r3c3">
+                    </td>
+                    <td class="s1r3c4 in ce24">
+                      <input id="s1r3c4">
+                    </td>
+                    <td class="s1r3c5 text ce24">
+                      <p>
+                        Samsung 50E 21700
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s1r4 ro4">
+                    <td class="s1r4c0 in in--text ce24">
+                      <input id="s1r4c0">
+                    </td>
+                    <td class="s1r4c1 in ce24">
+                      <input id="s1r4c1">
+                    </td>
+                    <td class="s1r4c2 in ce24">
+                      <input id="s1r4c2">
+                    </td>
+                    <td class="s1r4c3 in ce24">
+                      <input id="s1r4c3">
+                    </td>
+                    <td class="s1r4c4 in ce24">
+                      <input id="s1r4c4">
+                    </td>
+                    <td class="s1r4c5 text ce24">
+                      <p>
+                        Molicel 21700 P42A
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s1r5 ro4">
+                    <td class="s1r5c0 in in--text ce24">
+                      <input id="s1r5c0">
+                    </td>
+                    <td class="s1r5c1 in ce24">
+                      <input id="s1r5c1">
+                    </td>
+                    <td class="s1r5c2 in ce24">
+                      <input id="s1r5c2">
+                    </td>
+                    <td class="s1r5c3 in ce24">
+                      <input id="s1r5c3">
+                    </td>
+                    <td class="s1r5c4 in ce24">
+                      <input id="s1r5c4">
+                    </td>
+                    <td class="s1r5c5 text ce24">
+                      <p>
+                        Sanyo NCR20700B
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s1r6 ro4">
+                    <td class="s1r6c0 in in--text ce24">
+                      <input id="s1r6c0">
+                    </td>
+                    <td class="s1r6c1 in ce24">
+                      <input id="s1r6c1">
+                    </td>
+                    <td class="s1r6c2 in ce24">
+                      <input id="s1r6c2">
+                    </td>
+                    <td class="s1r6c3 in ce24">
+                      <input id="s1r6c3">
+                    </td>
+                    <td class="s1r6c4 in ce24">
+                      <input id="s1r6c4">
+                    </td>
+                    <td class="s1r6c5 text ce24">
+                      <p>
+                        Samsung INR18650-25R
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s1r7 ro4">
+                    <td class="s1r7c0 in in--text ce24">
+                      <input id="s1r7c0">
+                    </td>
+                    <td class="s1r7c1 in ce24">
+                      <input id="s1r7c1">
+                    </td>
+                    <td class="s1r7c2 in ce24">
+                      <input id="s1r7c2">
+                    </td>
+                    <td class="s1r7c3 in ce24">
+                      <input id="s1r7c3">
+                    </td>
+                    <td class="s1r7c4 in ce24">
+                      <input id="s1r7c4">
+                    </td>
+                    <td class="s1r7c5 text ce24">
+                      <p>
+                        Lipo (5000 mAh)
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s1r8 ro4">
+                    <td class="s1r8c0 in in--text ce24">
+                      <input id="s1r8c0">
+                    </td>
+                    <td class="s1r8c1 in ce24">
+                      <input id="s1r8c1">
+                    </td>
+                    <td class="s1r8c2 in ce24">
+                      <input id="s1r8c2">
+                    </td>
+                    <td class="s1r8c3 in ce24">
+                      <input id="s1r8c3">
+                    </td>
+                    <td class="s1r8c4 in ce24">
+                      <input id="s1r8c4">
+                    </td>
+                    <td class="s1r8c5 text ce24">
+                      <p>
+                        Lipo (8000 mAh)
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s1r9 ro4">
+                    <td></td>
+                  </tr>
+                  <tr class="s1r10 ro4">
+                    <td></td>
+                  </tr>
+                  <tr class="s1r11 ro4">
+                    <td class="s1r11c0 text ce23">
+                      <p>
+                        MM/Min
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s1r12 ro4">
+                    <td class="s1r12c0 out ce24">
+                      <div id="s1r12c0"></div>
+                    </td>
+                  </tr>
+                  <tr class="s1r13 ro4">
+                    <td></td>
+                  </tr>
+                  <tr class="s1r14 ro4">
+                    <td class="s1r14c0 text ce23">
+                      <p>
+                        Wheel Circumfrence
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s1r15 ro4">
+                    <td class="s1r15c0 out ce24">
+                      <div id="s1r15c0"></div>
+                    </td>
+                  </tr>
+                  <tr class="s1r16 ro4">
+                    <td></td>
+                  </tr>
+                  <tr class="s1r17 ro4">
+                    <td class="s1r17c0 text ce23">
+                      <p>
+                        Wheel RPM
+                      </p>
+                    </td>
+                  </tr>
+                  <tr class="s1r18 ro4">
+                    <td class="s1r18c0 out ce24">
+                      <div id="s1r18c0"></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div><!-- Vendor libraries -->
+    <script src="jquery.min.js">
+    </script> 
+    <script src="numeral.min.js">
+    </script> 
+    <script src="jstat.min.js">
+    </script> 
+    <script src="formula.min.js">
+    </script> 
+    <script type="application/javascript" src="scripts.js">
+    </script>
+    
+                  
+
+  </body>
+</html>
