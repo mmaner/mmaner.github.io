@@ -15,7 +15,7 @@
                                             APY.cells.s0r0c1 = {
                                     value: '30Q',
                                     type: 'text',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };
                                                                                                                                                                     APY.cells.s0r1c0 = {
                                     value: 'S\u0020Count\u0020\u0028Series\u0029',
@@ -23,7 +23,7 @@
                                     format: ''
                                 };
                                             APY.cells.s0r1c1 = {value: 12,type: 'number',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };                                                                            APY.cells.s0r1c2 = {
                                     value: 'S',
                                     type: 'text',
@@ -35,7 +35,7 @@
                                     format: ''
                                 };
                                             APY.cells.s0r2c1 = {value: 5,type: 'number',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };                                                                            APY.cells.s0r2c2 = {
                                     value: 'P',
                                     type: 'text',
@@ -47,7 +47,7 @@
                                     format: ''
                                 };
                                             APY.cells.s0r3c1 = {value: 190,type: 'number',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };                                                                            APY.cells.s0r3c2 = {
                                     value: 'KV',
                                     type: 'text',
@@ -74,7 +74,7 @@
                                     format: ''
                                 };
                                             APY.cells.s0r5c1 = {value: 15,type: 'number',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };                                                                            APY.cells.s0r5c2 = {
                                     value: 'T',
                                     type: 'text',
@@ -86,7 +86,7 @@
                                     format: ''
                                 };
                                             APY.cells.s0r6c1 = {value: 72,type: 'number',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };                                                                            APY.cells.s0r6c2 = {
                                     value: 'T',
                                     type: 'text',
@@ -98,7 +98,7 @@
                                     format: ''
                                 };
                                             APY.cells.s0r7c1 = {value: 200,type: 'number',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };                                                                            APY.cells.s0r7c2 = {
                                     value: 'mm',
                                     type: 'text',
@@ -110,7 +110,7 @@
                                     format: ''
                                 };
                                             APY.cells.s0r8c1 = {value: 85,type: 'number',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };                                                                            APY.cells.s0r8c2 = {
                                     value: '\u0025',
                                     type: 'text',
@@ -122,7 +122,7 @@
                                     format: ''
                                 };
                                             APY.cells.s0r10c1 = {value: 756,type: 'number',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };                                                                            APY.cells.s0r10c2 = {
                                     value: 'WH',
                                     type: 'text',
@@ -134,7 +134,7 @@
                                     format: ''
                                 };
                                             APY.cells.s0r11c1 = {value: 648,type: 'number',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };                                                                            APY.cells.s0r11c2 = {
                                     value: 'WH',
                                     type: 'text',
@@ -146,7 +146,7 @@
                                     format: ''
                                 };
                                             APY.cells.s0r12c1 = {value: 67032,type: 'number',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };                                                                            APY.cells.s0r12c2 = {
                                     value: 'ERPM',
                                     type: 'text',
@@ -158,7 +158,7 @@
                                     format: ''
                                 };
                                             APY.cells.s0r13c1 = {value: 9576,type: 'number',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };                                                                            APY.cells.s0r13c2 = {
                                     value: 'RPM',
                                     type: 'text',
@@ -170,7 +170,7 @@
                                     format: ''
                                 };
                                             APY.cells.s0r14c1 = {value: 170.634920634921,type: 'number',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };                                                                            APY.cells.s0r14c2 = {
                                     value: 'KV',
                                     type: 'text',
@@ -182,7 +182,7 @@
                                     format: ''
                                 };
                                             APY.cells.s0r15c1 = {value: 45.2631578947368,type: 'number',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };                                                                            APY.cells.s0r15c2 = {
                                     value: 'V',
                                     type: 'text',
@@ -194,7 +194,7 @@
                                     format: ''
                                 };
                                             APY.cells.s0r16c1 = {value: 5040,type: 'number',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };                                                                            APY.cells.s0r16c2 = {
                                     value: 'W',
                                     type: 'text',
@@ -206,7 +206,7 @@
                                     format: ''
                                 };
                                             APY.cells.s0r17c1 = {value: 15,type: 'number',
-                                    format: '0.[000000000]'
+                                    format: '0.[00]'
                                 };                                                                            APY.cells.s0r17c2 = {
                                     value: 'A',
                                     type: 'text',
@@ -751,7 +751,7 @@ APY.formatValue = function (value, type, format) {
             if (value === null) {
                 return '';
             }
-            format = format ? format : '0.[000000000]';
+            format = format ? format : '0.[00]';
             value = Math.abs(value) <= 1e-7 ? 0 : value;
             formattedValue = numeral(value).format(format);
         }
